@@ -1,6 +1,6 @@
 {
   "name": "hafta",
-  "version": "1.1.7",
+  "version": "1.0.1",
   "main": "main.js",
   "license": "MIT",
   "author": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nbarman7601/Hafta.git"
+    "url": "https://github.com/nbarman7601/dreamlight.git"
   },
   "build": {
     "appId": "nandan.hafta",
@@ -37,7 +37,7 @@
       {
         "provider": "github",
         "owner": "nbarman7601",
-        "repo": "Hafta"
+        "repo": "dreamlight"
       }
     ]
   },

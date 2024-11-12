@@ -92,6 +92,7 @@ const dbUrl = process.env.MONGO_URI || config_production_1.environment.DB_URL; /
 (0, db_1.connectDB)(dbUrl);
 const port = process.env.PORT || 3001;
 /**Elastic beanstock default port */
-app.listen(port, () => {
-    console.log("running at", port);
-});
+// app.listen(port, () => {
+//     console.log("running at", port);
+// });
+module.exports = app;
